@@ -1,0 +1,77 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+     <link href="../css/3.css" type="text/css" rel="stylesheet" />
+     
+
+ <style>
+ 	div.container{
+  		
+  }
+  </style>
+  <title>좋아하는것</title>
+  </head>
+  <body style="text-align: center">
+  <%@ include file="menu.jsp" %>
+  	
+<div class="container">
+ 
+</div>
+<!-- Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">로그인 결과</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    	
+  <h1>포켓몬</h1>
+  <img src = "../image/단체씬.jpg" width="600" height="400"  alt="이미지">
+  <p  >내가 가장 좋아하는 애니이자 캐릭터이다.</p>
+  <p  >많은 포켓모들 중에서 내가 좋아하는 포켓몬을 3마리정도 정한다면</p>
+<h3>TOP3 - 에레키블</h3>  
+  <img src = "../image/Paul_Electivire.png" width="600" height="400"  alt="이미지">
+ <p  >내가 이 녀석을 좋아하는 이유는 닌텐도로 포켓몬 게임을 했을 때</p>
+   <img src = "../image/2243616.jpg" width="400" height="400" alt="이미지" >
+ <p  >이 녀석을 제일 열심히 키우고 제일 먼저 만렙을 찍었기 때문이다.</p>
+<h3>TOP2 - 개구마르</h3>  
+<img src = "../image/SOFCJ-Raws_Pocket_Monsters_XYZ_-_29_(TVA_1280x720_x264_AAC)_mp4_001075320.jpg" width="600" height="350"  alt="이미지">	
+<p  >내가 마지막으로 본 시리즈의 에이스 포켓몬으로</p>
+ <img src = "../image/52565871_p0_master1200.jpg" width="350" height="450"  alt="이미지"> <br>
+  <img src = "../image/mugc-1.jpg" width="600" height="400"  alt="이미지"> 
+<p  >주인공과 특별한 진화를 하면서 마음을 얻었다.</p>
+<h3>TOP1 - 나무킹</h3>  
+ <img src = "../image/rstfxjdry.png" width="600" height="350"  alt="이미지">
+<p  >내가 제일 재밌게 보고 좋아하는 시리즈의 에이스 포켓몬으로 가장 좋아한다.</p>
+ <img src = "../image/rthserbs.jpg" width="600" height="400" alt="이미지"> <br>
+ <img src = "../image/ydjtdy.jpg" width="400" height="400"  alt="이미지"> 
+<p  >딱히 좋아하는 큰 이유는 없지만 그냥 좋다.</p>
+
+ <script src="../js/newid.js"></script>
+  </body>
+</html>
